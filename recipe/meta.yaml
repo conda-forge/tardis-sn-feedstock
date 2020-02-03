@@ -1,5 +1,5 @@
 {% set name = "tardis-sn" %}
-{% set version_tag = "v3.0.dev3384" %}
+{% set version_tag = "3.0.dev3384" %}
 
 package:
   name: {{ name|lower }}
