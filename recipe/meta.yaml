@@ -38,7 +38,7 @@ requirements:
     - scipy =1.1
     - pandas =0.24
     - numba =0.43
-    - pyne
+    - pyne =0.5
     - numexpr
     - networkx
     - pyyaml
