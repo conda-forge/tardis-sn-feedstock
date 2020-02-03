@@ -31,6 +31,7 @@ requirements:
     - astropy =3
     - cython >=0.29
     - numpy =1.15
+    - pandas =0.24
     - pyne
 
   run:
