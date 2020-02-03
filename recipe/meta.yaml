@@ -6,7 +6,7 @@ package:
   version: {{ version_tag.replace('-alpha.', '.a') }}
 
 source:
-  - url: https://github.com/tardis-sn/tardis/archive/v{{ version_tag }}.tar.gz
+  - url: https://github.com/tardis-sn/tardis/archive/{{ version_tag }}.tar.gz
     sha256: a7f1404a279d5b60d4a961c53794abea10eec495ac4b9bb6d329482433a12b97
   - url: https://github.com/astropy/astropy-helpers/archive/v3.1.1.tar.gz
     sha256: 8ba7e693f1cc9a1c12be3b4ba9e65b67246bff1741c726b79a6dc7b233ba4cd4
