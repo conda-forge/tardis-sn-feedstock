@@ -30,6 +30,8 @@ requirements:
     - setuptools
     - astropy =3
     - cython >=0.29
+    - numpy =1.15
+    - pyne
 
   run:
     - python
@@ -38,7 +40,7 @@ requirements:
     - scipy =1.1
     - pandas =0.24
     - numba =0.43
-    - pyne =0.5
+    - pyne
     - numexpr
     - networkx
     - pyyaml
