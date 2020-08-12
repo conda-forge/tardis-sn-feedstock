@@ -45,6 +45,7 @@ requirements:
     - h5py
     - requests
     - tqdm
+    - numba =0.50
     - networkx
 
 test:
