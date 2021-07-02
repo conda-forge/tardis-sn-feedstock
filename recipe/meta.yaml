@@ -11,12 +11,12 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: True  # [win or py != 37]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python =3.7
+    - python
     - pip
 
   run:
