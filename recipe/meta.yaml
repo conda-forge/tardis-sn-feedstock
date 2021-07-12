@@ -48,10 +48,6 @@ requirements:
 test:
   imports:
     - tardis
-  requires:
-    - pytest
-  commands:
-    - pytest tardis
 
 about:
   home: https://github.com/tardis-sn/tardis
