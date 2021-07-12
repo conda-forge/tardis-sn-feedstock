@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   skip: True  # [win or py != 37]
-  script: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }} {{ PYTHON }} -m pip install . --no-deps -vv  # workaround for https://github.com/pypa/setuptools_scm/issues/357
+  script: SETUPTOOLS_SCM_PRETEND_VERSION={{ version_tag.replace('release-', '') }} {{ PYTHON }} -m pip install . --no-deps -vv  # workaround for https://github.com/pypa/setuptools_scm/issues/357
 
 requirements:
   host:
