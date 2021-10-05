@@ -33,7 +33,7 @@ requirements:
     - networkx
     - pygraphviz
     - pyyaml
-    - jsonschema
+    - jsonschema =3
     - pytables
     - h5py
     - pickle5
