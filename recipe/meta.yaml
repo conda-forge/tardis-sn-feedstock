@@ -40,7 +40,7 @@ requirements:
     - requests
     - tqdm
     - jupyter
-    - matplotlib
+    - matplotlib =3.4
     - ipywidgets
     - plotly
     - qgrid
