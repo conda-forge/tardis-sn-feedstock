@@ -36,7 +36,6 @@ requirements:
     - jsonschema =3
     - pytables
     - h5py
-    - pickle5
     - requests
     - tqdm
     - notebook
