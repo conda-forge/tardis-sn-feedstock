@@ -34,7 +34,7 @@ requirements:
     - pygraphviz
     - pyyaml
     - jsonschema =3
-    - hdf5=1.10
+    - hdf5 =1.10
     - h5py
     - pytables
     - requests
